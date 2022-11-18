@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.main-bg {
+  background-color: #ffd569;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .main-bg {
+    height: 100vh;
+  }
+}
+.sub-bg {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media screen and(min-width:768px) {
+  .heading {
+    font-family: 'Roboto';
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.fruit-count {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffd569;
+}
+.fruitContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .main-fruitContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+.Image {
+  height: 280px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 8px;
+  border-width: 0px;
+}
